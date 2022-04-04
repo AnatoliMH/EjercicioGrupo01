@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/anatolyPageCSS.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 id="titulo"> CABECERA </h1>
+            <nav>
+                <h2> BARRA NAVEGACIÓN </h2>
+                <br>
+                <ul id="contenedorBarra">
+                    <br><a href="#seccion1" id="cont1"> CONTENIDO 1 </a></br>
+                    <br><a href="#seccion2" id="cont2"> CONTENIDO 2 </a></br>
+                    <br><a href="#seccion3" id="cont3"> CONTENIDO 3 </a></br>
+                    <br><a href="#aside" id="contAside"> ANUNCIO </a></br>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="contenedorMain">
+                <div id="contenedorSecciones">
+                    <section id="seccion2">
+                        <h1> SECCION 2</h1>
+                        <article>
+                            <h1> ENCABEZADO ARTICULO 2 </h1>
+                            <ul>
+                                <li><a href="https://example.com">Website</a></li>
+                                <li><a href="https://example.com">Website</a></li>
+                                <li><a href="https://example.com">Website</a></li>
+                            </ul>
+                        </article>
+                    </section>
+
+                    <section id="seccion3">
+                        <h2> SECCION 3</h2>
+                        <article>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <caption> TABLA</caption>
+                                        <th> Celda1 </th>
+                                        <th> Celda2 </th>
+                                        <th> Celda3 </th>
+                                        <th> Celda4 </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3"> Celda5 </td>
+                                        <td> Celda6 </td>
+                                        <td colspan="2"> Celda7 </td>
+                                    </tr>
+                                    <tr>
+                                        <th> Celda8 </th>
+                                        <td> Celda9 </td>
+                                        <td rowspan="2"> Celda10 </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"> Celda11 </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="4">
+                                            Pie de la tabla
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <h2>PIE DE PAGINA</h2>
+            <h3>© Copyright</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
